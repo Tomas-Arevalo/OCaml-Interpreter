@@ -1,11 +1,5 @@
-(* 
-                         CS 51 Final Project
-                         MiniML -- Evaluation
-*)
-
 (* This module implements a small untyped ML-like language under
-   various operational semantics.
- *)
+   various operational semantics.*)
 
 open Expr ;;
   
@@ -105,27 +99,6 @@ module Env : ENV =
 
   end
 ;;
-
-
-(*......................................................................
-  Evaluation functions
-
-  Each of the evaluation functions below evaluates an expression `exp`
-  in an environment `env` returning a result of type `value`. We've
-  provided an initial implementation for a trivial evaluator, which
-  just converts the expression unchanged to a `value` and returns it,
-  along with "stub code" for three more evaluators: a substitution
-  model evaluator and dynamic and lexical environment model versions.
-
-  Each evaluator is of type `expr -> Env.env -> Env.value` for
-  consistency, though some of the evaluators don't need an
-  environment, and some will only return values that are "bare
-  values" (that is, not closures). 
-
-  DO NOT CHANGE THE TYPE SIGNATURES OF THESE FUNCTIONS. Compilation
-  against our unit tests relies on their having these signatures. If
-  you want to implement an extension whose evaluator has a different
-  signature, implement it as `eval_e` below.  *)
 
 (* The TRIVIAL EVALUATOR, which leaves the expression to be evaluated
    essentially unchanged, just converted to a value for consistency

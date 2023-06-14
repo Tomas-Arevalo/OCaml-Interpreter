@@ -34,7 +34,4 @@ let test_all () =
   eval_s_test () ;
   eval_d_test () ;;
 
-(* Sorry about lack of tests but did alot of personal tests in the ./miniml.byte *)
-
-
 let _ = test_all () ;;

@@ -1,8 +1,3 @@
-(* 
-                         CS 51 Final Project
-                        MiniML -- Expressions
-*)
-
 (*......................................................................
   Abstract syntax of MiniML expressions 
  *)

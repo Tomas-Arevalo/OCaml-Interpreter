@@ -1,7 +1,4 @@
-(* 
-                         CS 51 Final Project
-                    MiniML -- Read-Eval-Print Loop
- *)
+(* REPL *)
 
 module Ev = Evaluation ;;
 module MP = Miniml_parse ;;

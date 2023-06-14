@@ -1,9 +1,4 @@
-(* 
-                         CS 51 Final Project
-                      MiniML -- Lexical Analyzer
-
- *)
-
+(* Lexical Analyzer *)
 {
   open Printf ;;
   open Miniml_parse ;; (* need access to parser's token definitions *)

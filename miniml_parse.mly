@@ -1,8 +1,4 @@
-(*
-                         CS 51 Final Project
-                           MiniML -- Parser
-*)
-                  
+(* Parser *)                
 %{
   open Expr ;;
 %}
